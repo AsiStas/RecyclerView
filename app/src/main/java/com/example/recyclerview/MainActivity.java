@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerViewItems.add(new RecyclerViewItem(R.drawable.ic_baseline_sentiment_very_dissatisfied_24, "Sad", "Life is sad!" ));
         recyclerViewItems.add(new RecyclerViewItem(R.drawable.ic_baseline_sentiment_satisfied_24, "Neutral", "Life is life!" ));
 
+
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         adapter = new RecyclerViewAdapter(recyclerViewItems);
